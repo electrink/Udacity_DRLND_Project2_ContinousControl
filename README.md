@@ -1,1 +1,1 @@
-# Udacity_DRLND_Project2_ContinousControl
+# Udacity_DRLND_Project2_ContinuousControl

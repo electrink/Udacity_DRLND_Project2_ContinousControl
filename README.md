@@ -1,3 +1,8 @@
+[//]: # (Image References)
+
+[image1]: https://user-images.githubusercontent.com/10624937/43851024-320ba930-9aff-11e8-8493-ee547c6af349.gif "Trained Agent"
+
+
 # Udacity_DRLND_Project2_ContinuousControl
 In this repository, I provide source codes for implementing a deep deterministic policy gradient (DDPG) algorithm to solve the continuous control (Reacher) problem in the Unity ML-Agents environment. This is the second project of the Udacity's Deep Reinforcement Learning Nano Degree (DRLND) program.
 

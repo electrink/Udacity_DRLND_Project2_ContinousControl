@@ -51,10 +51,10 @@ Note that to work properly in the Windows 7 64-bit environment, one has to mannu
 
 ## Instructions
 ### Training
-Open *P2_Continuous_Control_Jing Zhao.ipynb* to start training an AI agent. This script interacts with the Unity ML-Agents environment to gain experience which is defined by visiting a new state and receiving a reward from the previous action. In addition, the script also uses the DDPG learning algorithm implemented in *ddpg_agent_v2.py* and *model_v2.py* to improve the agent's performance over time.    
+Open *P2_Continuous_Control_Jing Zhao_v2.ipynb* to start training an AI agent. This script interacts with the Unity ML-Agents environment to gain experience which is defined by visiting a new state and receiving a reward from the previous action. In addition, the script also uses the DDPG learning algorithm implemented in *ddpg_agent_v2.py* and *model_v2.py* to improve the agent's performance over time.    
 
 ### Viewing the Result
-After training is done, one can view the agent's performance across total episodes in *P2_Continuous_Control_Jing Zhao.ipynb*. This result is stored in the *zipScore.pickle* file. The 100-point moving average of the score is also provided to check at what episode the environment is solved. 
+After training is done, one can view the agent's performance across total episodes in *P2_Continuous_Control_Jing Zhao_v2.ipynb*. This result is stored in the *zipScore.pickle* file. The 100-point moving average of the score is also provided to check at what episode the environment is solved. 
 
 ## Author
 Jing Zhao. Implementation of the DDPG algorithm is inspired by the [Deep Deterministic Policy Gradient Algorithms (DDPG)](https://github.com/electrink/deep-reinforcement-learning/tree/master/ddpg-bipedal) project in the DRLND program.

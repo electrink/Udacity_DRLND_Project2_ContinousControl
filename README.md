@@ -23,7 +23,7 @@ The task is episodic, and in order to solve the environment,  my agent must get 
 
 The barrier for solving the second version of the environment is slightly different, to take into account the presence of many agents.  In particular, my agents must get an average score of +30 (over 100 consecutive episodes, and over all agents).  Specifically,
 - After each episode, we add up the rewards that each agent received (without discounting), to get a score for each agent.  This yields 20 (potentially different) scores.  We then take the average of these 20 scores. 
-- This yields an **average score** for each episode (where the average is over all 20 agents).
+- This yields an average score for each episode (where the average is over all 20 agents).
 
 The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30. 
 
@@ -51,10 +51,10 @@ Note that to work properly in the Windows 7 64-bit environment, one has to mannu
 
 ## Instructions
 ### Training
-Open *P2_Continuous_Control_Jing Zhao_v2.ipynb* to start training an AI agent. This script interacts with the Unity ML-Agents environment to gain experience which is defined by visiting a new state and receiving a reward from the previous action. In addition, the script also uses the DDPG learning algorithm implemented in *ddpg_agent_v2.py* and *model_v2.py* to improve the agent's performance over time.    
+Open *P2_Continuous_Control_Jing Zhao_Final.ipynb* to start training an AI agent. This script interacts with the Unity ML-Agents environment to gain experience which is defined by visiting a new state and receiving a reward from the previous action. In addition, the script also uses the DDPG learning algorithm implemented in *ddpg_agent_v2.py* and *model_v2.py* to improve the agent's performance over time.    
 
 ### Viewing the Result
-After training is done, one can view the agent's performance across total episodes in *P2_Continuous_Control_Jing Zhao_v2.ipynb*. This result is stored in the *zipScore.pickle* file. The 100-point moving average of the score is also provided to check at what episode the environment is solved. 
+After training is done, one can view the agent's performance across total episodes in *P2_Continuous_Control_Jing Zhao_Final.ipynb*. This result is stored in the *zipScore_solved.pickle* file. The 100-point moving average of the score is also provided to illustrate that the 20 agents environment is solved in 80 episodes. The weights of trained networks are saved in files *checkpoint_actor_SOLVED_180.pth* and *checkpoint_critic_SOLVED_180.pth* respectively.
 
 ## Author
 Jing Zhao. Implementation of the DDPG algorithm is inspired by the [Deep Deterministic Policy Gradient Algorithms (DDPG)](https://github.com/electrink/deep-reinforcement-learning/tree/master/ddpg-bipedal) project in the DRLND program.
